@@ -168,24 +168,6 @@
         ]
     },
     {
-        "id": "ab7b09d08a15e22c",
-        "type": "file in",
-        "z": "ce4d8be9430e90b4",
-        "name": "ReadFile",
-        "filename": "/home/debian/Documents/time-schedule0.txt",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "x": 320,
-        "y": 260,
-        "wires": [
-            [
-                "b8e47583499847cf"
-            ]
-        ]
-    },
-    {
         "id": "b8e47583499847cf",
         "type": "ui_time_scheduler",
         "z": "ce4d8be9430e90b4",
