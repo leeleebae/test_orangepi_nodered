@@ -168,38 +168,6 @@
         ]
     },
     {
-        "id": "3582bb90447d52b2",
-        "type": "inject",
-        "z": "ce4d8be9430e90b4",
-        "name": "FireAfterReboot",
-        "props": [
-            {
-                "p": "payload",
-                "v": "",
-                "vt": "date"
-            },
-            {
-                "p": "topic",
-                "v": "",
-                "vt": "string"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 140,
-        "y": 260,
-        "wires": [
-            [
-                "ab7b09d08a15e22c"
-            ]
-        ]
-    },
-    {
         "id": "ab7b09d08a15e22c",
         "type": "file in",
         "z": "ce4d8be9430e90b4",
